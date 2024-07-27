@@ -1,0 +1,54 @@
+{
+  "name": "wifi-controller",
+  "version": "1.0.0",
+  "description": "Manage Wi-Fi state on macOS, Windows, and Linux",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincenzomaritato/wifi-controller.git"
+  },
+  "keywords": [
+    "wifi",
+    "Wi-Fi",
+    "manage",
+    "control",
+    "on",
+    "off",
+    "toggle",
+    "restart",
+    "macOS",
+    "Windows",
+    "Linux",
+    "network",
+    "connectivity",
+    "npm",
+    "module"
+  ],
+  "funding": "https://github.com/sponsors/vincenzomaritato",
+  "author": {
+    "name": "Vincenzo Maritato",
+    "email": "vincenzomaritato2005@gmail.com",
+    "url": "https://spacehubnetwork.com"
+  },
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/vincenzomaritato/wifi-controller/issues"
+  },
+  "homepage": "https://github.com/vincenzomaritato/wifi-controller#readme",
+  "devDependencies": {
+    "ava": "^6.1.3"
+  }
+}
